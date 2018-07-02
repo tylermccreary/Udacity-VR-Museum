@@ -1,0 +1,2639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CannonActivate
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0.00012623981, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: {x: 0, y: 0, z: 0.03985329, w: 0.9992055}
+        inSlope: {x: 0, y: 0, z: 1.0683757, w: -0.042915333}
+        outSlope: {x: 0, y: 0, z: 1.069978, w: -0.042468313}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: {x: 0, y: 0, z: 0.25280625, w: 0.9675169}
+        inSlope: {x: 0, y: 0, z: 1.813844, w: -0.47385696}
+        outSlope: {x: 0, y: 0, z: 1.8136204, w: -0.47385696}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0, y: 0, z: 0.4539561, w: 0.89102405}
+        inSlope: {x: 0, y: 0, z: 0.7525832, w: -0.38355592}
+        outSlope: {x: 0, y: 0, z: 0.74990064, w: -0.38221464}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: {x: 0, y: 0, z: 0.3931543, w: 0.9194725}
+        inSlope: {x: 0, y: 0, z: -1.353174, w: 0.5789099}
+        outSlope: {x: 0, y: 0, z: -1.353622, w: 0.5787613}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: {x: 0, y: 0, z: 0.25786263, w: 0.9661816}
+        inSlope: {x: 0, y: 0, z: -0.75638324, w: 0.20205982}
+        outSlope: {x: 0, y: 0, z: -0.7554882, w: 0.20205958}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: {x: 0, y: 0, z: 0.24412367, w: 0.9697441}
+        inSlope: {x: 0, y: 0, z: -0.41305983, w: 0.10371199}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: -0.00021704467, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: {x: 0, y: 0, z: -0.05001082, w: 0.99874866}
+        inSlope: {x: 0, y: 0, z: -0.90703374, w: -0.045597557}
+        outSlope: {x: 0, y: 0, z: -0.90821856, w: -0.04541875}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: {x: 0, y: 0, z: -0.25477946, w: 0.9669992}
+        inSlope: {x: 0, y: 0, z: -1.2837056, w: -0.33795843}
+        outSlope: {x: 0, y: 0, z: -1.2828106, w: -0.3379582}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: {x: 0, y: 0, z: -0.40644324, w: 0.913676}
+        inSlope: {x: 0, y: 0, z: -0.32186493, w: -0.14305107}
+        outSlope: {x: 0, y: 0, z: -0.32007724, w: -0.14305128}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: {x: 0, y: 0, z: -0.41206738, w: 0.9111534}
+        inSlope: {x: 0, y: 0, z: -0.16808526, w: -0.07510193}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: -0.0000000010883857, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0.0000010871822, w: 0}
+        outSlope: {x: 0, y: 0, z: -0.000111570356, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: {x: 0, y: 0, z: 0.0186549, w: 0.99982595}
+        inSlope: {x: 0, y: 0, z: 0.9523231, w: -0.017881379}
+        outSlope: {x: 0, y: 0, z: 0.9527439, w: -0.01698734}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: {x: 0, y: 0, z: 0.116900235, w: 0.9931437}
+        inSlope: {x: 0, y: 0, z: 1.4658287, w: -0.17255561}
+        outSlope: {x: 0, y: 0, z: 1.4682821, w: -0.17344905}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: {x: 0, y: 0, z: 0.16129702, w: 0.98690593}
+        inSlope: {x: 0, y: 0, z: 0.9383237, w: -0.15199144}
+        outSlope: {x: 0, y: 0, z: 0.9396681, w: -0.15378013}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: {x: 0, y: 0, z: 0.17967942, w: 0.9837252}
+        inSlope: {x: 0, y: 0, z: 0.5489593, w: -0.10192404}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: -0.00008490106, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: 0, y: 0, z: -0.027056055, w: 0.9996339}
+        inSlope: {x: 0, y: 0, z: -0.72635734, w: -0.01966954}
+        outSlope: {x: 0, y: 0, z: -0.7274821, w: -0.01966953}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: {x: 0, y: 0, z: -0.18465781, w: 0.98280287}
+        inSlope: {x: 0, y: 0, z: -0.67502254, w: -0.12695788}
+        outSlope: {x: 0, y: 0, z: -0.67256385, w: -0.12642144}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: {x: 0, y: 0, z: -0.11033421, w: 0.9938945}
+        inSlope: {x: 0, y: 0, z: 0.30820814, w: 0.034153458}
+        outSlope: {x: 0, y: 0, z: 0.30733675, w: 0.03486875}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: {x: 0, y: 0, z: -0.09889825, w: 0.9950976}
+        inSlope: {x: 0, y: 0, z: 0.09320685, w: 0.009834776}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: -0.000051793857, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: {x: 0, y: 0, z: 0.0000000037066243, w: 1}
+        inSlope: {x: 0, y: 0, z: 0.051747404, w: 0}
+        outSlope: {x: 0, y: 0, z: 0.052716207, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: {x: 0, y: 0, z: 0.19260664, w: 0.98127604}
+        inSlope: {x: 0, y: 0, z: 0.9438395, w: -0.18517175}
+        outSlope: {x: 0, y: 0, z: 0.94396996, w: -0.18529595}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: {x: 0, y: 0, z: 0.37479937, w: 0.92710596}
+        inSlope: {x: 0, y: 0, z: 0.18529595, w: -0.07487834}
+        outSlope: {x: 0, y: 0, z: 0.18417853, w: -0.07510193}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: {x: 0, y: 0, z: 0.37800154, w: 0.925805}
+        inSlope: {x: 0, y: 0, z: 0.096559614, w: -0.039339103}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0.00007738256, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: {x: 0, y: 0, z: -0.0000000015362563, w: 1}
+        inSlope: {x: 0, y: 0, z: -0.077314466, w: 0}
+        outSlope: {x: 0, y: 0, z: -0.078757726, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: {x: 0, y: 0, z: -0.32010913, w: 0.94738066}
+        inSlope: {x: 0, y: 0, z: -1.7079709, w: -0.5765755}
+        outSlope: {x: 0, y: 0, z: -1.7084183, w: -0.57756907}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: {x: 0, y: 0, z: -0.6549425, w: 0.7556787}
+        inSlope: {x: 0, y: 0, z: -1.4269353, w: -1.2362005}
+        outSlope: {x: 0, y: 0, z: -1.4259415, w: -1.2365974}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: {x: 0, y: 0, z: -0.889861, w: 0.45623174}
+        inSlope: {x: 0, y: 0, z: -0.1376867, w: -0.26871756}
+        outSlope: {x: 0, y: 0, z: -0.139475, w: -0.27090338}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: {x: 0, y: 0, z: -0.8922052, w: 0.4516303}
+        inSlope: {x: 0, y: 0, z: -0.07152564, w: -0.14036907}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: {x: 0, y: 0, z: -30}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -1.110223e-16, y: 2.220446e-16, z: 0}
+        inSlope: {x: -1.5407439e-30, y: -4.163352e-17, z: -0}
+        outSlope: {x: -1.5407439e-30, y: -4.163352e-17, z: -0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: {x: -1.110223e-16, y: 1.5959453e-16, z: 0}
+        inSlope: {x: 0, y: -4.1633304e-17, z: 0}
+        outSlope: {x: 0, y: -4.1633304e-17, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.31600392, y: -0.63373935, z: 3.0307756e-11}
+        inSlope: {x: -6.9388935e-15, y: -0, z: 4.0389676e-25}
+        outSlope: {x: -6.9388935e-15, y: -0, z: 4.0389676e-25}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: {x: -0.31600392, y: -0.63373935, z: 3.0307756e-11}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon/Canon_Spout
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 121765711
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4089214827
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1071469327
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4008617888
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1612004603
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2563457134
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 676847754
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 676847754
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1187499869
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.110223e-16
+        inSlope: -1.5407439e-30
+        outSlope: -1.5407439e-30
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -1.110223e-16
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.220446e-16
+        inSlope: -4.163352e-17
+        outSlope: -4.163352e-17
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 1.5959453e-16
+        inSlope: -4.1633304e-17
+        outSlope: -4.1633304e-17
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.31600392
+        inSlope: -6.9388935e-15
+        outSlope: -6.9388935e-15
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -0.31600392
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon/Canon_Spout
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.63373935
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: -0.63373935
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon/Canon_Spout
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.0307756e-11
+        inSlope: 4.0389676e-25
+        outSlope: 4.0389676e-25
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5
+        value: 3.0307756e-11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon/Canon_Spout
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: 0
+        inSlope: 0
+        outSlope: 0.00012623981
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0.03985329
+        inSlope: 1.0683757
+        outSlope: 1.069978
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0.25280625
+        inSlope: 1.813844
+        outSlope: 1.8136204
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0.4539561
+        inSlope: 0.7525832
+        outSlope: 0.74990064
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: 0.3931543
+        inSlope: -1.353174
+        outSlope: -1.353622
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: 0.25786263
+        inSlope: -0.75638324
+        outSlope: -0.7554882
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: 0.24412367
+        inSlope: -0.41305983
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0.9992055
+        inSlope: -0.042915333
+        outSlope: -0.042468313
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0.9675169
+        inSlope: -0.47385696
+        outSlope: -0.47385696
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0.89102405
+        inSlope: -0.38355592
+        outSlope: -0.38221464
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: 0.9194725
+        inSlope: 0.5789099
+        outSlope: 0.5787613
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: 0.9661816
+        inSlope: 0.20205982
+        outSlope: 0.20205958
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: 0.9697441
+        inSlope: 0.10371199
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0
+        inSlope: 0
+        outSlope: -0.00021704467
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0.05001082
+        inSlope: -0.90703374
+        outSlope: -0.90821856
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: -0.25477946
+        inSlope: -1.2837056
+        outSlope: -1.2828106
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0.40644324
+        inSlope: -0.32186493
+        outSlope: -0.32007724
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: -0.41206738
+        inSlope: -0.16808526
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0.99874866
+        inSlope: -0.045597557
+        outSlope: -0.04541875
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.9669992
+        inSlope: -0.33795843
+        outSlope: -0.3379582
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0.913676
+        inSlope: -0.14305107
+        outSlope: -0.14305128
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: 0.9111534
+        inSlope: -0.07510193
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0.0000000010883857
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: 0
+        inSlope: 0.0000010871822
+        outSlope: -0.000111570356
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0.0186549
+        inSlope: 0.9523231
+        outSlope: 0.9527439
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0.116900235
+        inSlope: 1.4658287
+        outSlope: 1.4682821
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: 0.16129702
+        inSlope: 0.9383237
+        outSlope: 0.9396681
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: 0.17967942
+        inSlope: 0.5489593
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0.99982595
+        inSlope: -0.017881379
+        outSlope: -0.01698734
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0.9931437
+        inSlope: -0.17255561
+        outSlope: -0.17344905
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: 0.98690593
+        inSlope: -0.15199144
+        outSlope: -0.15378013
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: 0.9837252
+        inSlope: -0.10192404
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: 0
+        inSlope: 0
+        outSlope: -0.00008490106
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -0.027056055
+        inSlope: -0.72635734
+        outSlope: -0.7274821
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0.18465781
+        inSlope: -0.67502254
+        outSlope: -0.67256385
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0.11033421
+        inSlope: 0.30820814
+        outSlope: 0.30733675
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: -0.09889825
+        inSlope: 0.09320685
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0.9996339
+        inSlope: -0.01966954
+        outSlope: -0.01966953
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0.98280287
+        inSlope: -0.12695788
+        outSlope: -0.12642144
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0.9938945
+        inSlope: 0.034153458
+        outSlope: 0.03486875
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0.9950976
+        inSlope: 0.009834776
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0.000051793857
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0.0000000037066243
+        inSlope: 0.051747404
+        outSlope: 0.052716207
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0.19260664
+        inSlope: 0.9438395
+        outSlope: 0.94396996
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: 0.37479937
+        inSlope: 0.18529595
+        outSlope: 0.18417853
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.37800154
+        inSlope: 0.096559614
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0.98127604
+        inSlope: -0.18517175
+        outSlope: -0.18529595
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: 0.92710596
+        inSlope: -0.07487834
+        outSlope: -0.07510193
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.925805
+        inSlope: -0.039339103
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0.00007738256
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: -0.0000000015362563
+        inSlope: -0.077314466
+        outSlope: -0.078757726
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: -0.32010913
+        inSlope: -1.7079709
+        outSlope: -1.7084183
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0.6549425
+        inSlope: -1.4269353
+        outSlope: -1.4259415
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: -0.889861
+        inSlope: -0.1376867
+        outSlope: -0.139475
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0.8922052
+        inSlope: -0.07152564
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: 0.94738066
+        inSlope: -0.5765755
+        outSlope: -0.57756907
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: 0.7556787
+        inSlope: -1.2362005
+        outSlope: -1.2365974
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: 0.45623174
+        inSlope: -0.26871756
+        outSlope: -0.27090338
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0.4516303
+        inSlope: -0.14036907
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 1.5
+        value: -30
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.3
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 4.56806
+        inSlope: 122.6118
+        outSlope: 122.6118
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.53333336
+        value: 29.287266
+        inSlope: 214.7792
+        outSlope: 214.7792
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 53.99557
+        inSlope: 96.63343
+        outSlope: 96.63343
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8000001
+        value: 46.30182
+        inSlope: -168.70325
+        outSlope: -168.70325
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.90000004
+        value: 29.886549
+        inSlope: -89.615
+        outSlope: -89.615
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9333334
+        value: 28.2601
+        inSlope: -48.79007
+        outSlope: -48.79007
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -5.7332087
+        inSlope: -104.144714
+        outSlope: -104.144714
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: -29.521032
+        inSlope: -152.03177
+        outSlope: -152.03177
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -47.963196
+        inSlope: -40.295086
+        outSlope: -40.295086
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2
+        value: -48.669537
+        inSlope: -21.190245
+        outSlope: -21.190245
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1
+        value: -0
+        inSlope: 0.00012484464
+        outSlope: 0.00012484464
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 2.1378179
+        inSlope: 109.12159
+        outSlope: 109.12159
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: 13.426478
+        inSlope: 169.17473
+        outSlope: 169.17473
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2666668
+        value: 18.564373
+        inSlope: 109.088806
+        outSlope: 109.088806
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.3000001
+        value: 20.702173
+        inSlope: 64.1264
+        outSlope: 64.1264
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Front_joint_Base/Front_arm_A/Front_arm_Joint_Middle/Front_arm_B/Front_Joint_Cannon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -3.1007736
+        inSlope: -83.31883
+        outSlope: -83.31883
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -21.282364
+        inSlope: -78.61788
+        outSlope: -78.61788
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -12.669162
+        inSlope: 35.467873
+        outSlope: 35.467873
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2333333
+        value: -11.3514595
+        inSlope: 10.726272
+        outSlope: 10.726272
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.40000004
+        value: 0.0000004247478
+        inSlope: 5.9410825
+        outSlope: 5.9410825
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.70000005
+        value: 22.209887
+        inSlope: 110.23389
+        outSlope: 110.23389
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9666667
+        value: 44.023823
+        inSlope: 22.846027
+        outSlope: 22.846027
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 44.41989
+        inSlope: 11.881725
+        outSlope: 11.881725
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.33333334
+        value: -0.000000176042
+        inSlope: -8.876265
+        outSlope: -8.876265
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6333334
+        value: -37.339046
+        inSlope: -206.59792
+        outSlope: -206.59792
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.8333334
+        value: -81.830574
+        inSlope: -216.30708
+        outSlope: -216.30708
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1333334
+        value: -125.71156
+        inSlope: -34.500877
+        outSlope: -34.500877
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1666667
+        value: -126.30332
+        inSlope: -17.751177
+        outSlope: -17.751177
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Base/Rotating_base/Central_Tracks_/Rear_arm_Joint_Base/Rear_Arm_B/Rear_arm_join_Middle/Rear_arm_A/Rear_arm_joint_Canon/canon
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []
